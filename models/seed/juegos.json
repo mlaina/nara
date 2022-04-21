@@ -1,0 +1,105 @@
+[
+  {
+    "nombre": "Beer Pong",
+    "tipo": "EXTERNO",
+    "info": "Los jugadores deben encestar la pelota de ping-pong en el vaso del oponente, el cual está lleno de cerveza o de cualquier tipo de bebida alcohólica. Si atinan el tiro, el oponente debe beber el líquido de dicho vaso y retirarlo de la mesa.",
+    "equipos": "TRUE"
+  },
+  {
+    "nombre": "Man Ball",
+    "tipo": "EXTERNO",
+    "info": "Un equipo empieza tirando la pelota hacia la botella. Si la botella cae, el equipo que ha tirado la botella puede beber de su lata de cerveza hasta que el otro equipo ha colocado la botella de nuevo en su lugar y vuelven a sus puestos. Si no tiran la botella, no pasa nada.",
+    "equipos": "TRUE"
+  },
+  {
+    "nombre": "Los Mansos",
+    "tipo": "EXTERNO",
+    "info": "Hay que meter la pelota en el vaso antes que los demás",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Relevos",
+    "tipo": "EXTERNO",
+    "info": "Girar el vaso",
+    "equipos": "TRUE"
+  },
+  {
+    "nombre": "La soga",
+    "tipo": "EXTERNO",
+    "info": "Girar el vaso, duelo",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "El calentamiento",
+    "tipo": "EXTERNO",
+    "info": "Uno adivina la dirección que va a tomar la cabeza del rival",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "El ManOso",
+    "tipo": "MINI",
+    "info": "No se puede hacer caso al que ha sido eliminado, sino, sacrificas una vida",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Infiltrado",
+    "tipo": "MINI",
+    "info": "Se da una palabra a todos menos a los infiltrados",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Los números",
+    "tipo": "MINI",
+    "info": "Adivinar números del resto, jugandotela diciendo si ganas o pierdes",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "El 21",
+    "tipo": "MINI",
+    "info": "Llegar a 21 contando por turnos cumpliendo las normas, si se llega a 21 se elige una norma",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Mantiroso",
+    "tipo": "MINI",
+    "info": "Mentiroso con dados",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "La lista maldita",
+    "tipo": "MINI",
+    "info": "Creas una lista de palabras y el rival al leerlas si se ríe con alguna pierde",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Las 3 palabras",
+    "tipo": "MINI",
+    "info": "Decir 3 palabras que no tengan que ver",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "El Sondeo",
+    "tipo": "MINI",
+    "info": "El más votado p",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "El portavoz",
+    "tipo": "MINI",
+    "info": "a",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Los retos",
+    "tipo": "MINI",
+    "info": "Distintos turnos para gastar y desgastar Maná",
+    "equipos": "FALSE"
+  },
+  {
+    "nombre": "Yo follo",
+    "tipo": "MINI",
+    "info": "Una persona se va, los demás deciden un verbo, cuando vuelve la persona tiene que hacer preguntas para adivinar el verbo sustituyendolo por follar",
+    "equipos": "FALSE"
+  }
+
+]

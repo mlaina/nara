@@ -1,0 +1,122 @@
+[
+  {
+    "nombre": "Red Label",
+    "graduacion": 43,
+    "marca": "Johnnie Walker",
+    "tipo": "Whiskey"
+  },
+  {
+    "nombre": "Ballantine’s",
+    "graduacion": 40,
+    "marca": "Ballantine’s",
+    "tipo": "Whiskey"
+  },
+  {
+    "nombre": "J&B",
+    "graduacion": 40,
+    "marca": "J&B",
+    "tipo": "Whiskey"
+  },
+  {
+    "nombre": "Jameson",
+    "graduacion": 40,
+    "marca": "Jameson",
+    "tipo": "Whiskey"
+  },
+  {
+    "nombre": "Havana Club",
+    "graduacion": 45,
+    "marca": "Havana Club",
+    "tipo": "Ron"
+  },
+  {
+    "nombre": "Brugal",
+    "graduacion": 38,
+    "marca": "Brugal",
+    "tipo": "Ron"
+  },
+  {
+    "nombre": "Barceló",
+    "graduacion": 37.5,
+    "marca": "Barceló",
+    "tipo": "Ron"
+  },
+  {
+    "nombre": "Negrita",
+    "graduacion": 37.5,
+    "marca": "Negrita",
+    "tipo": "Ron"
+  },
+  {
+    "nombre": "Gin Nordés",
+    "graduacion": 40,
+    "marca": "Gin Nordés",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Larios",
+    "graduacion": 37.5,
+    "marca": "Larios",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Puerto de Indias",
+    "graduacion": 37.5,
+    "marca": "Puerto de Indias",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Seagrams",
+    "graduacion": 40,
+    "marca": "Seagrams",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Bulldog",
+    "graduacion": 40,
+    "marca": "Bulldog",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Tanqueray",
+    "graduacion": 47.3,
+    "marca": "Tanqueray",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Beefeater",
+    "graduacion": 37.5,
+    "marca": "Beefeater",
+    "tipo": "Ginebra"
+  },
+  {
+    "nombre": "Absolut Vodka",
+    "graduacion": 40,
+    "marca": "Absolut Vodka",
+    "tipo": "Vodka"
+  },
+  {
+    "nombre": "Eristoff Vodka",
+    "graduacion": 40,
+    "marca": "Eristoff Vodka",
+    "tipo": "Vodka"
+  },
+  {
+    "nombre": "Garrafón",
+    "graduacion": 9999,
+    "marca": "Garrafón",
+    "tipo": "Cualquiera"
+  },
+  {
+    "nombre": "Jägermeister",
+    "graduacion": 35,
+    "marca": "Jägermeister",
+    "tipo": "Licor de hierbas"
+  },
+  {
+    "nombre": "Otro",
+    "graduacion": null,
+    "marca": "Otro",
+    "tipo": "Otro"
+  }
+]

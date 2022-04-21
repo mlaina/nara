@@ -1,0 +1,401 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "NARA",
+    "description": "Relational, node, API **APLICATION**",
+    "contact": {}
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "getAll /users",
+        "tags": [
+          "Users"
+        ],
+        "operationId": "getAll/users",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": "Login Token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "security": []
+      },
+      "post": {
+        "summary": "insert /users",
+        "tags": [
+          "Users"
+        ],
+        "operationId": "insert/users",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": "Login Token"
+          },
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "example": [
+                {
+                  "name": "EMILIO",
+                  "nick": "MARMOL",
+                  "email": "emm@gmail.com",
+                  "pass": "1234",
+                  "lastname": "sa"
+                }
+              ],
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/insert~1usersrequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "security": []
+      }
+    },
+    "/user/2": {
+      "get": {
+        "summary": "get /user/:id",
+        "tags": [
+          "Users"
+        ],
+        "operationId": "get/user/:id",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": "Login Token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "security": []
+      }
+    },
+    "/user/4": {
+      "delete": {
+        "summary": "delete /user/:id",
+        "tags": [
+          "Users"
+        ],
+        "operationId": "delete/user/:id",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": "Login Token"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "security": []
+      }
+    },
+    "/user/5": {
+      "put": {
+        "summary": "update /user/:id",
+        "tags": [
+          "Users"
+        ],
+        "operationId": "update/user/:id",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": "Login Token"
+          },
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "example": [
+                {
+                  "name": "JULIO"
+                }
+              ],
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/update~1user~1%3Aidrequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        },
+        "security": []
+      }
+    },
+    "/login": {
+      "get": {
+        "summary": "login",
+        "tags": [
+          "Login"
+        ],
+        "operationId": "login",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/register": {
+      "post": {
+        "summary": "register",
+        "tags": [
+          "Login"
+        ],
+        "operationId": "register",
+        "deprecated": false,
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "required": true,
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Body",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "example": [
+                {
+                  "name": "CARLOS",
+                  "nick": "NEGRO",
+                  "email": "cnegro@gmail.com",
+                  "pass": "1234",
+                  "lastname": "sa"
+                }
+              ],
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/registerrequest"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {}
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "update/user/:idrequest": {
+      "title": "update/user/:idrequest",
+      "example": {
+        "name": "JULIO"
+      },
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "insert/usersrequest": {
+      "title": "insert/usersrequest",
+      "example": {
+        "name": "EMILIO",
+        "nick": "MARMOL",
+        "email": "emm@gmail.com",
+        "pass": "1234",
+        "lastname": "sa"
+      },
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "nick": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "pass": {
+          "type": "string"
+        },
+        "lastname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "nick",
+        "email",
+        "pass",
+        "lastname"
+      ]
+    },
+    "registerrequest": {
+      "title": "registerrequest",
+      "example": {
+        "name": "CARLOS",
+        "nick": "NEGRO",
+        "email": "cnegro@gmail.com",
+        "pass": "1234",
+        "lastname": "sa"
+      },
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "nick": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "pass": {
+          "type": "string"
+        },
+        "lastname": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "nick",
+        "email",
+        "pass",
+        "lastname"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "name": "Users"
+    },
+    {
+      "name": "Login"
+    }
+  ]
+}

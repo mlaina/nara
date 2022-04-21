@@ -1,0 +1,5 @@
+- [ ] Equipos
+- [ ] Multirespuesta
+- [ ] Votaciones a las respuestas
+- [ ] Normas/Reglas
+- [ ] Relacionar preguntas a jugadores
