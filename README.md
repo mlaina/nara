@@ -1,4 +1,4 @@
-# NARA MAN
+# NARA
 
 <p align="center">
   <a href="https://github.com/devsman/nara-man/actions?query=workflow%3ABuild"><img src="https://github.com/devsman/nara-man/workflows/Build/badge.svg"></a>
